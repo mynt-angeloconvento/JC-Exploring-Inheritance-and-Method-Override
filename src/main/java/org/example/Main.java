@@ -28,13 +28,16 @@ public class Main {
         // myCodeEditor.openFile();
         // System.out.println("\n--- Polymorphic Editor ---");
         // polyEditor.openFile();
-        GameCharacter regularCharacter = new GameCharacter();
-        ArmoredCharacter armoredCharacter = new ArmoredCharacter();
-        regularCharacter.takeDamage(100);
-        System.out.println("Regular character takes 100 damage.");
-        System.out.println("New health: " + (regularCharacter.getHealth()));
-        armoredCharacter.takeDamage(100);
-        System.out.println("Armored character takes 50 damage.");
-        System.out.println("New health: " + (armoredCharacter.getHealth()));
+        // GameCharacter regularCharacter = new GameCharacter();
+        // ArmoredCharacter armoredCharacter = new ArmoredCharacter();
+        // regularCharacter.takeDamage(100);
+        // System.out.println("Regular character takes 100 damage.");
+        // System.out.println("New health: " + (regularCharacter.getHealth()));
+        // armoredCharacter.takeDamage(100);
+        // System.out.println("Armored character takes 50 damage.");
+        // System.out.println("New health: " + (armoredCharacter.getHealth()));
+
+        CheckingAccount myChecking = new CheckingAccount(100.0);
+        myChecking.deductMonthlyFee();
     }
 }
