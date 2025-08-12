@@ -37,7 +37,7 @@ public class Main {
         // System.out.println("Armored character takes 50 damage.");
         // System.out.println("New health: " + (armoredCharacter.getHealth()));
 
-        CheckingAccount myChecking = new CheckingAccount(100.0);
-        myChecking.deductMonthlyFee();
+        // CheckingAccount myChecking = new CheckingAccount(100.0);
+        // myChecking.deductMonthlyFee();
     }
 }
